@@ -30,10 +30,8 @@ data onto a map of the UK.
 
 ## Getting Started
 
-1. Choose your preferred programming language and framework:
-   - **Python:** Use libraries like `requests`, `matplotlib`, `plotly`, or `streamlit`
-   - **JavaScript/Node.js:** Use `fetch`, `d3.js`, `chart.js`, or frameworks like React/Vue
-   - **R:** Use `httr`, `ggplot2`, `plotly`, or `shiny`
+1. Choose your preferred programming framework:
+   - Could use libraries like `requests`, `matplotlib`, `plotly`, or `streamlit`
 
 2. Set up your development environment
 
@@ -43,14 +41,6 @@ data onto a map of the UK.
    - Create visualizations
    - Debug issues
    - Add interactivity
-
-## Tips for Working with AI Assistants
-
-- Be specific about what you want to accomplish
-- Ask for explanations of code you don't understand
-- Request different approaches or alternatives
-- Use the AI to help debug errors
-- Don't hesitate to iterate and improve your solution
 
 ## Example Features to Implement
 
@@ -63,12 +53,5 @@ data onto a map of the UK.
 - [UK Carbon Intensity API Documentation](https://carbon-intensity.github.io/api-definitions/)
 - [Carbon Intensity Website](https://carbonintensity.org.uk/)
 
-## Deliverable
-
-Create a working application that fetches and visualizes UK carbon intensity 
-data. Focus on the process of using AI tools effectively rather than creating a 
-perfect final product.
-
----
 
 **Happy vibing**
