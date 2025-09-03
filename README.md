@@ -2,17 +2,19 @@
 
 ## Overview
 
-This exercise will help you practice using AI coding assistants to build a data visualization application. You'll create an interactive plot that displays carbon intensity data from the UK's national grid.
+This exercise will help you practice using AI coding assistants to build a data 
+visualization application. You'll create an interactive plot that displays 
+carbon intensity data from the UK's national grid.
 
 ## Exercise Goal
 
-Build an application that interactively plots regional Carbon Intensity data 
-onto a map of thes UK. 
+Build a python application that interactively plots regional Carbon Intensity 
+data onto a map of the UK. 
 1. Fetches data from the UK Carbon Intensity API (https://carbonintensity.org.uk/)
 2. Creates an interactive plot/visualization of the carbon intensity data 
    overlaid onto a map of the UK
-3. Allows users to change the time being plotted, and get out a time-series for 
-   a given region somehow. 
+3. Allows users to change the time being plotted, and plot a time-series for 
+   a given region. 
 
 ## API Information
 
@@ -63,8 +65,10 @@ onto a map of thes UK.
 
 ## Deliverable
 
-Create a working application that fetches and visualizes UK carbon intensity data. Focus on the process of using AI tools effectively rather than creating a perfect final product.
+Create a working application that fetches and visualizes UK carbon intensity 
+data. Focus on the process of using AI tools effectively rather than creating a 
+perfect final product.
 
 ---
 
-**Happy coding with AI!**
+**Happy vibing**
