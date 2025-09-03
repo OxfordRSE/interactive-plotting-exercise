@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UK Carbon Intensity Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>UK Carbon Intensity Map</h1>
+            <div class="controls">
+                <div class="time-controls">
+                    <label for="datetime">Date & Time:</label>
+                    <input type="datetime-local" id="datetime" />
+                    <button id="now-btn">Now</button>
+                </div>
+                <div class="legend">
+                    <div class="legend-item">
+                        <div class="legend-color very-low"></div>
+                        <span>Very Low (0-50)</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color low"></div>
+                        <span>Low (51-100)</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color moderate"></div>
+                        <span>Moderate (101-200)</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color high"></div>
+                        <span>High (201-300)</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color very-high"></div>
+                        <span>Very High (300+)</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <main>
+            <div class="map-container">
+                <div id="map"></div>
+            </div>
+            
+            <div class="sidebar">
+                <div class="region-info">
+                    <h3 id="region-name">Select a region</h3>
+                    <div id="region-details">
+                        <p>Click on a region to see details</p>
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <h4 id="chart-title">Time Series (Last 24 Hours)</h4>
+                    <div id="time-series-chart"></div>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
