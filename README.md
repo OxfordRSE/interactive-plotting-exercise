@@ -30,8 +30,11 @@ data onto a map of the UK.
 
 ## Getting Started
 
-1. Choose your preferred programming framework:
-   - Could use libraries like `requests`, `matplotlib`, `plotly`, or `streamlit`
+1. Choose your preferred programming framework, you could use libraries like: 
+   - `requests`
+   - `matplotlib` 
+   - `plotly` 
+   - `streamlit`
 
 2. Set up your development environment
 
