@@ -9,12 +9,7 @@ carbon intensity data from the UK's national grid.
 ## Exercise Goal
 
 Build a python application that interactively plots regional Carbon Intensity 
-data onto a map of the UK. 
-1. Fetches data from the UK Carbon Intensity API (https://carbonintensity.org.uk/)
-2. Creates an interactive plot/visualization of the carbon intensity data 
-   overlaid onto a map of the UK
-3. Allows users to change the time being plotted, and plot a time-series for 
-   a given region. 
+data, from the UK Carbon Intensity API, onto a map of the UK.
 
 ## API Information
 
@@ -45,7 +40,7 @@ data onto a map of the UK.
    - Debug issues
    - Add interactivity
 
-## Example Features to Implement
+## Possible Features to Implement
 
 - **Basic:** Display current carbon intensity
 - **Intermediate:** Show intensity over time with a line chart
